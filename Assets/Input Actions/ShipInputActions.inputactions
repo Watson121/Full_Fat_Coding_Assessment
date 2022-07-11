@@ -1,0 +1,52 @@
+{
+    "name": "ShipInputActions",
+    "maps": [
+        {
+            "name": "Ship",
+            "id": "109a13cc-db82-4890-ae8e-c3e5998b6d53",
+            "actions": [
+                {
+                    "name": "Left_Click",
+                    "type": "Button",
+                    "id": "82ea17c5-eeae-4eb1-a9c6-8dfd91ea50fa",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Right_Click",
+                    "type": "Button",
+                    "id": "614c20b0-c1d4-4e83-9411-3cc5f3168671",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "b8f5e61a-69d4-4a5e-88a1-efcde6f4d833",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Left_Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "915286b9-49c3-41b0-8339-2bf21a734167",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Right_Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
