@@ -103,7 +103,6 @@ public class PlayerMovement : MonoBehaviour
     {
         float forwardSpeed = (speed * TimeActive);
         forwardSpeed = Mathf.Clamp(forwardSpeed, MIN_SPEED, MAX_SPEED);
-        Debug.Log("Forward Speed is: " + forwardSpeed);
         return forwardSpeed;
     }
 
