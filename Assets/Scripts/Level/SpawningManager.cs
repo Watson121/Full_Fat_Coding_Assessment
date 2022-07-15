@@ -55,7 +55,7 @@ public class SpawningManager : MonoBehaviour
         GameObject objectToSpawn;
         int objectChoice = Random.Range(1, 10);
 
-        if (objectChoice < 6)
+        if (objectChoice <= 8)
         {
             objectToSpawn = enemyPool[enemyIndex];
             enemyIndex++;

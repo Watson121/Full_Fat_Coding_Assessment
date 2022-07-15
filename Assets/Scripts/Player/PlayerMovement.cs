@@ -142,6 +142,7 @@ public class PlayerMovement : MonoBehaviour
         {
             shieled = true;
             shield.SetActive(true);
+            other.transform.position = new Vector3(100.0f, 100.0f, 100.0f);
         }
     }
 
