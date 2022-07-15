@@ -127,9 +127,10 @@ public class GameDirector : MonoBehaviour
         SetHighScore();
     }
 
-    private void SetHighScore(float highScore)
+    private void SetHighScore(int hScore)
     {
-        HighScoreText.text = "HIGH SCORE: " + highScore;
+        HighScoreText.text = "HIGH SCORE: " + hScore;
+        highScore = hScore;
     }
 
     private void SetHighScore()
